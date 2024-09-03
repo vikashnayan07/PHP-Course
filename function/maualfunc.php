@@ -61,3 +61,11 @@ echo "a:  . $a ,  b: " .$b;
 
 
 ?>
+<?php  
+function sayHello($name="Ram"){  
+echo "Hello $name<br/>";  
+}  
+sayHello("Sonoo");  
+sayHello(); 
+sayHello("Vimal");  
+?>  

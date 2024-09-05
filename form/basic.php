@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </head>
     <body>
         <div class="result-container">
-            <h2>Form Submission Received</h2>
+            <h2>Form Details: </h2>
             <p><strong>Username:</strong> <?php echo $username; ?></p>
             <p><strong>Name:</strong> <?php echo $name; ?></p>
             <p><strong>Blood Group:</strong> <?php echo $bg; ?></p>
